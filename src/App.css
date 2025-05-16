@@ -1,0 +1,34 @@
+#root {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(244, 244, 244);
+}
+
+/* Ajustes para el contenedor principal */
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Mejorar visualización en dispositivos pequeños */
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+}
+
+/* Estilizar la alerta de información */
+.alert-info {
+  border-left: 4px solid #0d6efd;
+}
+
+/* Mejorar aspecto de la tabla */
+.table-responsive {
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 5px;
+  overflow: hidden;
+}
